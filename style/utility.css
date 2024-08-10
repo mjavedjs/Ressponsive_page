@@ -1,0 +1,23 @@
+html{
+    font-size:62.5%;
+}
+@font-face {
+    font-family:poppin;
+    src: url(../font/Poppins-BlackItalic.ttf);
+}
+.font1{
+    font-size:1.8rem;
+}
+.font2{
+    font-size:2.5rem;
+}
+.font-w{
+    font-weight:bold;
+    font-size:1.3rem;
+}
+.borderp:hover{
+    border:1px solid orange;
+}
+.box:hover{
+    border:1px solid white;
+}
