@@ -10,63 +10,37 @@
     <title>Amazon Clone</title>
 </head>
 <body>
-    <header>
-      <nav>
-        
-        <div class="nav-container">
-          <div class="nav-logo box">
-            <img src="./imgs/amazon_logo.png" alt="logo-img">
-          </div>
-
-          <div class="nav-box1 box">
-            <span>Deliver to</span>
-            <div class="box1-icon">
-              <i class="fa-solid fa-location-dot"></i>
-             <span>Pakistan</span>
-            </div>
-          </div>
-        <div class="nav-box2 borderp">
-          <select name="" id="" class="select-option">
-           <option value="">All</option>
-          </select>
-            <input type="text" placeholder="Search Amazon" class="input-search">
-            <div class="search-icon">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-        </div>
-      <div class="box3 box" >
-        <p><span>Hello Singin</span></p>
-        <p class="font-w" >Account & list</p>
+  <nav class="navbar navbar-expand-lg    bg-dark h-5" id="color">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#"><img src="./imgs/amazon_logo.png"class="one" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#"><span>Delivery to <br> <i class="fa-solid fa-location-dot"></i> Pakistan</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link text-white" href="#"><span>Hello sing in <br>  Account  <i class="fa-solid fa-caret-down"></i> </span>
+            </a> 
+          </li>
+           
+          <li class="nav-item">
+            <a class="nav-link disabled text-white" aria-disabled="true">Retunr  <br>  & Order</a>
+          </li>
+          <li class="nav-item nav-2">
+            <a class="nav-link disabled text-white cart" aria-disabled="true"><i class="fa-brands fa-opencart"></i>Cart</a>
+          </li>
+        </ul>
+        <form class="d-flex form1" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
       </div>
-
-      <div class="box4 box" >
-        <p><span>Return</span></p>
-        <p class="font-w"> & Order</p>
-      </div>
-
-   <div class="box5 box">
-    <i class="fa-brands fa-opencart"></i> 
-    <p>Cart</p>
-   </div>
-      </div>
-      <div class="panel-container">
-        <div class="panel-all">
-          <span>All</span>
-          <i class="fa-solid fa-bars"></i>
-        </div>
-        <div class="panel-option">
-          <P>Today Deal's</P>
-          <P>Customer Servies</P>
-          <P>Registery</P>
-          <P>Gift Cards</P>
-          <P>Sell</P>
-        </div>
-        <div class="panel-deatil">
-          <span>Shop deals in Dawlances</span>
-        </div>
-      </div>
-      </nav>
-    </header>
+    </div>
+  </nav>
       <main>
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
@@ -81,36 +55,205 @@
             </div>
           </div>
         </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 <!-- Card section start  -->
+
 <div class="container mt-5">
-  <div class="row justify-content-around flex-wrap">
+  <div class="row justify-content-around flex-wrap text-center">
     <div class="card col-md-5 col-lg-3 mb-4" style="width: 30rem;">
       <img src="./imgs/box4_image.jpg" class="card-img-top p-5" alt="...">
-      <div class="card-body">
+      <div class="card-body mt-5">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
+
     <div class="card col-md-5 col-lg-3 mb-4" style="width: 30rem;">
-      <img src="./imgs/box3_image.jpg" class="card-img-top p-5" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+      <img src="./imgs/img2.jpg" class="card-img-top p-5" alt="...">
+      <div class="card-body mt-5">
+        <h5 class="card-title mt-2">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
+
     <div class="card col-md-5 col-lg-3 mb-4" style="width: 30rem;">
       <img src="./imgs/box2_image.jpg" class="card-img-top p-5" alt="...">
-      <div class="card-body">
+      <div class="card-body mt-5">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card col-md-5 col-lg-3 mb-4" style="width: 30rem;">
+      <img src="./imgs/box4.jpg" class="card-img-top p-5" alt="...">
+      <div class="card-body mt-5">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <!-- line two of card -->
+    <div class="card col-md-5 col-lg-3 mb-4" style="width: 30rem;">
+      <img src="./imgs/t-img2.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body mt-5">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         <a href="#" class="btn btn-primary">Go somewhere</a>
       </div>
     </div>
     <div class="card col-md-5 col-lg-3 mb-4" style="width: 30rem;">
-      <img src="./imgs/box4.jpg" class="card-img-top p-5" alt="...">
+      <img src="./imgs/t-img4.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body mt-5">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4" style="width:30rem;">
+      <img src="./imgs/img14.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body ">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4" style="width:30rem;">
+      <img src="./imgs/img14.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+     <!-- baby section start -->
+     <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/b-img4.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4  b-img" style="width: 30rem;">
+      <img src="./imgs/b-img8.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body ">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4  b-img" style="width: 30rem;">
+      <img src="./imgs/b-img5.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body ">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4  b-img" style="width: 30rem;">
+      <img src="./imgs/b-img5.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <!-- electronic section -->
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/e-img1.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/e-img2.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/e-img3.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/e-img4.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <!-- fruniture section -->
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/f-img1.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/f-img2.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/f-img3.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/f-img4.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <!-- computer section  -->
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/c-img1.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/c-img2.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/c-img3.webp" class="card-img-top p-5" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card col-md-5 col-lg-3 mb-4 b-img" style="width: 30rem;">
+      <img src="./imgs/c-img4.webp" class="card-img-top p-5" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -119,9 +262,56 @@
     </div>
   </div>
 </div>
-
- 
+  <div class="border p-5 text-center mb-2 roundede-2  fs-1">
+    <p>See personalized recommendations</p>
+    <button type="button" class="btn btn-warning  p-3 ">Sing IN</button>
+    <p>New customer? Start here.</p>
+  </div>
+  <div class="border p-2 text-center mb-2 roundede-2  fs-1 bg-dark text-white">
+   <p>Back</p>
+  </div>
     </main>
-
+      <footer class="bg-dark text-white text-center py-3 fs-2 d-flex justify-content-around flex-wrap ">
+          <div class="text2 d-flex flex-wrap p-3 ">
+            <ul>
+              <li class="mb-5">Careers</li>
+              <li>About Amazon </li>
+              <li> Amazon Devices </li>
+              <li> Amazon Science</li>
+              <li> Investor Relations</li>
+            </ul>
+          </div>
+          <div class="text2 d-flex flex-wrap  p-3 ">
+            <ul>
+              <h2 class="mb-5">Make Money with Us</h2>
+              <li> Make Money with UsSell  products on Amazon</li>
+              <li>Sell on Amzon Bussiness</li>
+              <li> Sell App on Amazon </li>
+              <li> Adertise YOur Product</li>
+              <li> Self-Publish with us</li>
+              <li>Becouse of Afflilate</li>
+              <li>Host an Amazon Hub</li>
+              <li>Make More Mony</li>
+            </ul>
+          </div>
+          <div class="text2 d-flex flex-wrap  p-3 ">
+            <ul>
+              <h2 >Amazon Payment Products</h2>
+              <li>	Amazon Payment Products Amazon Business Card </li>
+              <li>Shop With Points</li>
+              <li> Reload your Balance</li>
+              <li> Amazone Currency Converter</li>
+            </ul>
+          </div>
+          <div class="container p-5 mt-4  footer-div ">
+            <p class="mb-1">© 2024 Your Company. All rights reserved.</p>
+            <p class="mb-1">Follow us on 
+              <a href="#" class="text-white m-2">Facebook</a>, 
+              <a href="#" class="text-white m-2">Twitter</a>, and 
+              <a href="#" class="text-white m-2">Instagram</a>.
+            </p>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
